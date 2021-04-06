@@ -5,29 +5,30 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
 }
+
 /*Title------------*/
+
 header {
   background: #2b2b2b;
   padding: 1rem 2rem;
   text-align: center;
-  
 }
 
 /*Logo-------------*/
+
 #logo {
   color: white;
   font-weight: 400;
   font-weight: lighter;
   font-style: italic;
-  
 }
 
 body {
-    background: #434343;
+  background: #434343;
 }
 
 div {
@@ -35,30 +36,28 @@ div {
 }
 
 .conteiner {
-
   margin: 5rem auto auto auto;
   height: 40vh;
-  width: 90vw; /*Limitar a lateral*/
+  width: 90vw;
+  /*Limitar a lateral*/
   
-  background: ;
 }
 
 #title {
-    margin: 1.5rem 3rem 3rem 3rem;
-    text-align: center;
-    font-weight: normal;
-    font-size: 1.6rem;
+  margin: 1.5rem 3rem 3rem 3rem;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: white;
 }
 
 #valorReal {
-
   margin: 1.5rem auto 3rem auto;
   padding: 0.5rem 1rem 0.5rem 1rem;
   text-align: center;
   width: 20vw;
   width: 20vw;
   display: block;
-
   font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
@@ -72,7 +71,6 @@ div {
   text-align: center;
   width: 20vw;
   display: block;
-
   font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
@@ -84,13 +82,11 @@ button {
   background: #43E056;
   color: white;
   font-size: 1rem;
-  
   height: auto;
   width: auto;
   margin: 1.5rem auto 2rem auto;
   padding: 0.5rem;
   border-radius: 8px;
-
   box-shadow: 2px 0.2rem 0 #888888;
   display: block;
 }
