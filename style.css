@@ -20,12 +20,19 @@ header {
 
 /*Logo-------------*/
 
+#img-logo {
+  height: 5vh;
+  width: 5vh;
+  margin: 0;
+}
+
 #logo {
   color: white;
   font-weight: 400;
   font-weight: lighter;
   font-style: italic;
 }
+
 
 body {
   background: #434343;
@@ -36,7 +43,7 @@ div {
 }
 
 .conteiner {
-  margin: 5rem auto auto auto;
+  margin: 3rem auto auto auto;
   height: 40vh;
   width: 90vw;
   /*Limitar a lateral*/
