@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 16px;
+}
+/*Title------------*/
+header {
+  background: #252525;
+  padding: 1rem 2rem;
+  text-align: center;
+  
+}
+
+/*Logo-------------*/
+#logo {
+  color: white;
+  font-weight: 400;
+}
+
+body {
+    background: #434343;
+}
+
+main {
+  color: white;
+}
+
+.conteiner {
+  width: 100%; /*Limitar a lateral*/
+}
+
+#title {
+    margin: 1.5rem 3rem 1.5rem 3rem;
+    text-align: center;
+  
+    font-size: 1.2rem;
+}
+
+#valorReal {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+#resultado {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+button {
+  background: #43E056;
+  color: white;
+  
+  margin-left: 3rem;
+  padding: .2rem;
+  border-radius: 1px;
+  display: block;
+}
