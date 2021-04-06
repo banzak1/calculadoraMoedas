@@ -47,14 +47,25 @@ div {
 #valorReal {
 
   margin: 1.5rem auto 3rem auto;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-align: center;
+  width: 20vw;
   width: 20vw;
   display: block;
 }
 
 #resultado {
   margin: 3rem auto 3rem auto;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-align: center;
   width: 20vw;
   display: block;
+
+  font-size: 1.2rem;
+  font-weight: nomal;
+  font-style: italic;
+  color: #e8d913;
+  background: #888888;
 }
 
 button {
@@ -67,6 +78,8 @@ button {
   margin: 1.5rem auto 2rem auto;
   padding: 0.5rem;
   border-radius: 8px;
+
+  box-shadow: 2px 0.2rem 0 #888888;
   display: block;
 }
 
