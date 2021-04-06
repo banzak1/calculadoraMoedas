@@ -23,6 +23,7 @@ header {
   font-weight: 400;
   font-weight: lighter;
   font-style: italic;
+  
 }
 
 body {
@@ -34,14 +35,19 @@ div {
 }
 
 .conteiner {
-  width: 100%; /*Limitar a lateral*/
+
+  margin: 5rem auto auto auto;
+  height: 40vh;
+  width: 90vw; /*Limitar a lateral*/
+  
+  background: ;
 }
 
 #title {
     margin: 1.5rem 3rem 3rem 3rem;
     text-align: center;
-  
-    font-size: 1.2rem;
+    font-weight: normal;
+    font-size: 1.6rem;
 }
 
 #valorReal {
@@ -52,6 +58,12 @@ div {
   width: 20vw;
   width: 20vw;
   display: block;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #e8d913;
+  background: #888888;
 }
 
 #resultado {
@@ -62,7 +74,7 @@ div {
   display: block;
 
   font-size: 1.2rem;
-  font-weight: nomal;
+  font-weight: bold;
   font-style: italic;
   color: #e8d913;
   background: #888888;
