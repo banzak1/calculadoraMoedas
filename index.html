@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.icon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.icon.png" type="image/x-icon" />
 
-  <title>Currency Conversor</title>
-  
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-</head>
+    <title>Currency Conversor</title>
 
-<body>
-  <!-- Project -->
-  <header>
-    <h1 id="logo">Conversor de moedas</h1>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  </header>
-  
-  <div class="conteiner">
-    <h2 id="title">Calculadora de Real para Dólar</h2>
-    
-    <input type="number" name="valorReal" id="valorReal" value="0" />
-    
-    <button id="calc" type="button" onclick="converterMoeda()">Converter</button>
-    
-    <input id="resultado" type="number" name="resultado"  value="" readonly />
+  <body>
+    <!-- Project -->
+    <header>
+      <h1 id="logo">Conversor de moedas</h1>
+    </header>
 
-  </div>
-  
-  
-  
-  <script src="main.js"></script>
-</body>
+    <div class="conteiner">
+      <h2 id="title">Calculadora de Real para Dólar</h2>
+
+      <input type="number" name="valorReal" id="valorReal" value="0" />
+
+      <button id="calc" type="button" onclick="converterMoeda()">
+        Converter
+      </button>
+
+      <input id="resultado" type="number" name="resultado" value="" readonly />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
